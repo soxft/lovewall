@@ -1,6 +1,8 @@
 <?php
      $comd="SELECT * FROM bbq ORDER by time DESC";
                 $sql=mysqli_query($conn,$comd);
+            $del="delete from `bbq` where `from`='' or `to`='';";
+            $sql1=mysqli_query($conn,$del);  //防止出现空白
      //信息
       while($row = mysqli_fetch_object($sql)){
  echo("<div class=\"mdui-card\">");
