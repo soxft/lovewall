@@ -92,7 +92,7 @@ if (isset($_POST['submit'])) {
       echo("</div>");
       // 卡片的内容
       echo("<div class=\"mdui-card-content\">「" . $row->information . "」</div>");
-      echo("<div style=\"float:right; class=\"mdui-card-primary-subtitle\">FROM:" . $row->from . "</div>");
+      echo("<div style=\"float:right; class=\"mdui-card-primary-subtitle\">FROM:" . $row->from . "&emsp;</div>");
       echo("</div>");
       echo("<br/>");
     }
