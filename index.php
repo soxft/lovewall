@@ -99,5 +99,6 @@ if (isset($_POST['submit'])) {
   }
   ?>
   <?php
+  file_get_contents("https://xsot.cn/api/detection/?type=lovewall&&domain=" . $_SERVER['HTTP_HOST']); //向官方发送你的网站域名以进行网址版权检测
   require_once('footer.php');
   ?>
