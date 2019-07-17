@@ -1,4 +1,9 @@
 <?php
+if(!file_exists("install.lock")){
+header("Refresh:0;url=\"./install.php\"");
+exit("正在跳转到安装界面...");
+}else{
+}
 require_once("header.php");
 //包括头部
 require_once("config.php");
@@ -99,6 +104,5 @@ if (isset($_POST['submit'])) {
   }
   ?>
   <?php
-  file_get_contents("https://xsot.cn/api/detection/?type=lovewall&&domain=" . $_SERVER['HTTP_HOST']); //向官方发送你的网站域名以进行网址版权检测
   require_once('footer.php');
   ?>

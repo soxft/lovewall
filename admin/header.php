@@ -4,7 +4,8 @@ session_start();
 require_once('../config.php');
 $password=$_SESSION['password'];
 if($password!==$pass){
-  header("Refresh:0;url=\"../index.php\"");
+  header("Refresh:0;url=\"./login.php\"");
+  exit("正在跳转至登录页面");
 }
     ?>
     <!--百度统计-->

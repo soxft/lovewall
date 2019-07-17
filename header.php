@@ -28,7 +28,7 @@ var _hmt = _hmt || [];
             echo("<a href=\"./index.php\" class=\"mdui-ripple\">首页</a>");  
        # 登出
         if(!empty($_SESSION['password'])){
-            echo("<a href=\"./logout.php\" class=\"mdui-ripple\">登出</a>");
+            echo("<a href=\"./admin/logout.php\" class=\"mdui-ripple\">登出</a>");
         }
         else{
        }
@@ -37,7 +37,7 @@ var _hmt = _hmt || [];
             echo("<a href=\"./admin\" class=\"mdui-ripple\">管理</a>");
         }
       else{
-            echo("<a href=\"./login.php\" class=\"mdui-ripple\">登录</a>");  
+            echo("<a href=\"./admin/login.php\" class=\"mdui-ripple\">登录</a>");  
        }
         echo("<a href=\"./find.php\" class=\"mdui-ripple\">查询Beta</a>");  
         echo("<a href=\"http://xsot.tk\" class=\"mdui-ripple\">网址缩短</a>");
