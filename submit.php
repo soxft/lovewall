@@ -37,5 +37,4 @@ if (!empty($ip)) {
 $sql = "INSERT INTO `content` VALUES(uuid(),'$osname','$content','$name','$ip','$time')";
 @mysqli_query($conn,$sql);
 echo 200;
-// emailsend("contact@xcsoft.top","有人在你的网站上表白了!","[" . $name . "]在[" . date("Y-m-d H:i:s",$time) . "]向[" . $osname . "]表白:[" . $content . "]");
 ?>
