@@ -1,5 +1,5 @@
 # Lovewall
-[![HitCount](http://hits.dwyl.com/soxft/soxft/lovewall.svg)](http://hits.dwyl.com/soxft/soxft/lovewall)
+[![](https://data.jsdelivr.com/v1/package/gh/soxft/lovewall/badge)](https://www.jsdelivr.com/package/gh/soxft/lovewall)
 <a href="http://www.apache.org/licenses/LICENSE-2.0.html"> 
 <img src="https://img.shields.io/github/license/soxft/lovewall.svg" alt="License"></a>
 <a href="https://github.com/soxft/lovewall/stargazers"> 
