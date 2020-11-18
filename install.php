@@ -78,8 +78,6 @@
     fclose($fp2);
     //写注册锁
     echo "<br/><center><h1>安装成功!4s后将为您自动跳转到首页!</h1></center>";
-    file_get_contents("https://xsot.cn/api/detection/?type=lovewall&&domain=" . $_SERVER['HTTP_HOST']);
-    //仅用作版权检测,无他用,如果您能保证不修改版权,可自行移除
     header("Refresh:4;url=\"./index.php\"");
   }
   ?>
