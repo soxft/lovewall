@@ -14,8 +14,7 @@
 <br/>3.上传源码至服务器.
 <br/>4.访问网站,根据引导输入mysql等信息进行安装.
 <br/>5.访问域名进行确认.
-## 演示站点
-http://love.xsot.cn
+
 ## 最后
 有任何问题,请访问http://blog.xsot.cn/archives/pro-bbq.html 进行留言
 ## 更新
